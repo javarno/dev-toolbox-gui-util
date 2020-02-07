@@ -28,7 +28,7 @@
   <parent>
     <groupId>org.dev-toolbox</groupId>
     <artifactId>dev-toolbox-parent</artifactId>
-    <version>1.6.0</version>
+    <version>1.6.1</version>
   </parent>
 
   <url>https://github.com/javarno/dev-toolbox-gui-util</url>
@@ -37,8 +37,8 @@
   </scm>
 
   <properties>
-    <dev-toolbox-util-resource.version>1.3.0</dev-toolbox-util-resource.version>
-    <dev-toolbox-util-task.version>0.7.0</dev-toolbox-util-task.version>
+    <dev-toolbox-util-resource.version>1.3.1</dev-toolbox-util-resource.version>
+    <dev-toolbox-util-task.version>0.7.1</dev-toolbox-util-task.version>
   </properties>
 
   <dependencyManagement>
