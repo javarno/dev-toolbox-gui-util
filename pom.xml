@@ -24,11 +24,12 @@
   <packaging>pom</packaging>
 
   <artifactId>dev-toolbox-gui-util</artifactId>
+  <version>1.7.1</version>
 
   <parent>
     <groupId>org.dev-toolbox</groupId>
     <artifactId>dev-toolbox-parent</artifactId>
-    <version>1.7.0</version>
+    <version>1.7.3</version>
   </parent>
 
   <url>https://github.com/javarno/dev-toolbox-gui-util</url>
@@ -38,7 +39,7 @@
 
   <properties>
     <dev-toolbox-util-resource.version>1.4.0</dev-toolbox-util-resource.version>
-    <dev-toolbox-util-task.version>0.8.0</dev-toolbox-util-task.version>
+    <dev-toolbox-util-task.version>0.8.3</dev-toolbox-util-task.version>
   </properties>
 
   <dependencyManagement>
@@ -57,8 +58,6 @@
   </dependencyManagement>
 
   <modules>
-    <module>gui-util-action</module>
-    <module>gui-util-animation</module>
     <module>gui-util-aspect-ratio</module>
     <module>gui-util-exception</module>
     <module>gui-util-file-field</module>
