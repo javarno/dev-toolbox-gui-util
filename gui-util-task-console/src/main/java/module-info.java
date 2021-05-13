@@ -22,6 +22,8 @@ module org.devtoolbox.gui.util.task.console {
 
     exports org.devtoolbox.gui.util.task.console;
 
+    opens org.devtoolbox.gui.util.task.console to javafx.fxml;
+
     requires javafx.base;
     requires javafx.controls;
     requires javafx.fxml;

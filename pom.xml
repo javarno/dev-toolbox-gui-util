@@ -24,7 +24,7 @@
   <packaging>pom</packaging>
 
   <artifactId>dev-toolbox-gui-util</artifactId>
-  <version>1.7.1</version>
+  <version>1.7.2</version>
 
   <parent>
     <groupId>org.dev-toolbox</groupId>
@@ -38,7 +38,7 @@
   </scm>
 
   <properties>
-    <dev-toolbox-util-resource.version>1.4.0</dev-toolbox-util-resource.version>
+    <dev-toolbox-util-resource.version>1.4.1</dev-toolbox-util-resource.version>
     <dev-toolbox-util-task.version>0.8.3</dev-toolbox-util-task.version>
   </properties>
 
