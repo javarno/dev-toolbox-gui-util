@@ -3,7 +3,7 @@
 <!--
   - MIT License
   -
-  - Copyright © 2020 dev-toolbox.org
+  - Copyright © 2020-2023 dev-toolbox.org
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
   - (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish,
@@ -24,12 +24,12 @@
   <packaging>pom</packaging>
 
   <artifactId>dev-toolbox-gui-util</artifactId>
-  <version>1.7.2</version>
+  <version>1.8.0</version>
 
   <parent>
     <groupId>org.dev-toolbox</groupId>
     <artifactId>dev-toolbox-parent</artifactId>
-    <version>1.7.3</version>
+    <version>2.0.6</version>
   </parent>
 
   <url>https://github.com/javarno/dev-toolbox-gui-util</url>
@@ -38,8 +38,13 @@
   </scm>
 
   <properties>
-    <dev-toolbox-util-resource.version>1.4.1</dev-toolbox-util-resource.version>
-    <dev-toolbox-util-task.version>0.8.3</dev-toolbox-util-task.version>
+    <dev-toolbox-util-resource.version>1.5.0</dev-toolbox-util-resource.version>
+    <dev-toolbox-util-task.version>0.9.0</dev-toolbox-util-task.version>
+
+    <javafx-controls.version>${javafx.version}</javafx-controls.version>
+    <javafx-fxml.version>${javafx.version}</javafx-fxml.version>
+    <javafx-graphics.version>${javafx.version}</javafx-graphics.version>
+    <javafx-swing.version>${javafx.version}</javafx-swing.version>
   </properties>
 
   <dependencyManagement>
@@ -54,15 +59,27 @@
         <artifactId>dev-toolbox-util-task</artifactId>
         <version>${dev-toolbox-util-task.version}</version>
       </dependency>
+
+      <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-controls</artifactId>
+        <version>${javafx-controls.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-fxml</artifactId>
+        <version>${javafx-fxml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-graphics</artifactId>
+        <version>${javafx-graphics.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-swing</artifactId>
+        <version>${javafx-swing.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
-
-  <modules>
-    <module>gui-util-aspect-ratio</module>
-    <module>gui-util-exception</module>
-    <module>gui-util-file-field</module>
-    <module>gui-util-svg</module>
-    <module>gui-util-tab</module>
-    <module>gui-util-task-console</module>
-  </modules>
 </project>

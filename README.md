@@ -1,7 +1,7 @@
 <!--
   - MIT License
   -
-  - Copyright © 2020 dev-toolbox.org
+  - Copyright © 2020-2023 dev-toolbox.org
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
   - (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish,
@@ -32,6 +32,7 @@ Parent pom for dev-toolbox.org GUI utility projects.
 
 history
 -------
+- v1.8.0 2023/02/03 : java 17
 - v1.7.2 2021/05/13 : upgraded all gui-util projects to use the same version of dev-toolbox-gui-util
 - v1.7.1 2020/04/21 : upgrade javafx to 14.0.2.1, junit-jupiter to 5.7.0, surefire and failsafe plugins to 3.0.0-M5, moved gui-action and gui-animation to their own repository
 - v1.7.0 2020/04/23 : java 14
