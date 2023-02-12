@@ -32,6 +32,7 @@ Parent pom for dev-toolbox.org GUI utility projects.
 
 history
 -------
+- v1.9.1 2023/02/12 : upgrade to dev-toolbox-util-task v0.10.1
 - v1.9.0 2023/02/12 : upgrade to dev-toolbox-util-task v0.10.0
 - v1.8.0 2023/02/03 : java 17
 - v1.7.2 2021/05/13 : upgraded all gui-util projects to use the same version of dev-toolbox-gui-util
