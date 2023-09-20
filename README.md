@@ -33,15 +33,15 @@ Parent pom for dev-toolbox.org GUI utility projects.
 history
 -------
 - v1.10.0 2023/09/20
- . maven plugin versions upgrade
- . upgraded javaFX to v17.0.8, slf4j-api to v2.0.9, logback to v1.4.11 and junit to v5.10.0
- . upgraded [util-task](https://github.com/javarno/dev-toolbox-util-task) to v0.11.0
+  * maven plugin versions upgrade
+  * upgraded javaFX to v17.0.8, slf4j-api to v2.0.9, logback to v1.4.11 and junit to v5.10.0
+  * upgraded [util-task](https://github.com/javarno/dev-toolbox-util-task) to v0.11.0
 - v1.9.1 2023/02/12 : upgraded [util-task](https://github.com/javarno/dev-toolbox-util-task) to v0.10.1
 - v1.9.0 2023/02/12 : upgraded [util-task](https://github.com/javarno/dev-toolbox-util-task) to v0.10.0
 - v1.8.0 2023/02/03 : java 17
 - v1.7.2 2021/05/13 : upgraded all gui-util projects to use the same version of dev-toolbox-gui-util
 - v1.7.1 2020/04/21 :
-  . upgraded javafx to v14.0.2.1, junit-jupiter to v5.7.0, surefire and failsafe plugins to v3.0.0-M5
-  . moved [gui-action](https://github.com/javarno/dev-toolbox-gui-util-action) and [gui-animation](https://github.com/javarno/dev-toolbox-gui-util-animation) to their own repository
+  * upgraded javafx to v14.0.2.1, junit-jupiter to v5.7.0, surefire and failsafe plugins to v3.0.0-M5
+  * moved [gui-action](https://github.com/javarno/dev-toolbox-gui-util-action) and [gui-animation](https://github.com/javarno/dev-toolbox-gui-util-animation) to their own repository
 - v1.7.0 2020/04/23 : java 14
 - previous versions : history lost :)
