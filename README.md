@@ -32,6 +32,7 @@ Parent pom for dev-toolbox.org GUI utility projects.
 
 history
 -------
+- v1.11.0 2023-09-23 : java 21
 - v1.10.0 2023/09/20
   * maven plugin versions upgrade
   * upgraded javaFX to v17.0.8, slf4j-api to v2.0.9, logback to v1.4.11 and junit to v5.10.0
