@@ -23,7 +23,7 @@
   <packaging>pom</packaging>
 
   <artifactId>dev-toolbox-gui-util</artifactId>
-  <version>1.11.0-SNAPSHOT</version>
+  <version>1.11.0</version>
 
   <parent>
     <groupId>org.dev-toolbox</groupId>
@@ -34,7 +34,7 @@
   <url>https://github.com/javarno/dev-toolbox-gui-util</url>
   <scm>
     <connection>scm:git:https://github.com/javarno/dev-toolbox-gui-util.git</connection>
-    <tag>HEAD</tag>
+    <tag>v1.11.0</tag>
   </scm>
 
   <properties>
