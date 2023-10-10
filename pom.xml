@@ -23,7 +23,7 @@
   <packaging>pom</packaging>
 
   <artifactId>dev-toolbox-gui-util</artifactId>
-  <version>1.11.1-SNAPSHOT</version>
+  <version>1.12.0-SNAPSHOT</version>
 
   <parent>
     <groupId>org.dev-toolbox</groupId>
@@ -38,7 +38,7 @@
   </scm>
 
   <properties>
-    <dev-toolbox-util-task.version>0.12.0</dev-toolbox-util-task.version>
+    <dev-toolbox-util-task.version>0.13.0</dev-toolbox-util-task.version>
 
     <javafx-controls.version>${javafx.version}</javafx-controls.version>
     <javafx-fxml.version>${javafx.version}</javafx-fxml.version>
